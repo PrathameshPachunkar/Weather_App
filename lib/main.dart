@@ -6,11 +6,13 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 
 class Weatherapp extends StatefulWidget {
-  const Weatherapp({Key? key}) : super(key: key);
+
+
 
   @override
   _WeatherappState createState() => _WeatherappState();
 
+  String apikey ='1c74a04bce1e09e4a6dacbf3eee4a3ed';
 }
 
 class _WeatherappState extends State<Weatherapp> {
